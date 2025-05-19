@@ -237,331 +237,39 @@ MemGen6:
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeK4SgEyPqzk1L4s29ylrzHAsSYHubrjU4zUGHwMuNqXeUmY8263Zud-B1B9O4TNKeQ53-qv1sNc8fVT-iA3tBOQ9jSW6qCTsxhQgQsMGd9TSJXtBSVFbLH1ZEvHMAe2oPlwYt2?key=Tb5DxvC0fziRF5sBl-xLKg "Chart")
 
-|
 
-Generator
 
- |
+| Generator | Line Size (bytes) | Hit Ratio (%) |
+|-----------|-------------------|---------------|
+| memGen1   | 16                | 93.75         |
+| memGen1   | 32                | 96.88         |
+| memGen1   | 64                | 98.44         |
+| memGen1   | 128               | 99.22         |
+| memGen2   | 16                | 99.85         |
+| memGen2   | 32                | 99.92         |
+| memGen2   | 64                | 99.96         |
+| memGen2   | 128               | 99.98         |
+| memGen3   | 16                | 0.1           |
+| memGen3   | 32                | 0.1           |
+| memGen3   | 64                | 0.1           |
+| memGen3   | 128               | 0.1           |
+| memGen4   | 16                | 99.97         |
+| memGen4   | 32                | 99.99         |
+| memGen4   | 64                | 99.99         |
+| memGen4   | 128               | 100           |
+| memGen5   | 16                | 99.59         |
+| memGen5   | 32                | 99.8          |
+| memGen5   | 64                | 99.9          |
+| memGen5   | 128               | 99.95         |
+| memGen6   | 16                | 0             |
+| memGen6   | 32                | 0             |
+| memGen6   | 64                | 50            |
+| memGen6   | 128               | 75            |
 
-Line Size (bytes)
 
- |
 
-Hit Ratio (%)
 
- |
-|
 
-memGen1
-
- |
-
-16
-
- |
-
-93.75
-
- |
-|
-
-memGen1
-
- |
-
-32
-
- |
-
-96.88
-
- |
-|
-
-memGen1
-
- |
-
-64
-
- |
-
-98.44
-
- |
-|
-
-memGen1
-
- |
-
-128
-
- |
-
-99.22
-
- |
-|
-
-memGen2
-
- |
-
-16
-
- |
-
-99.85
-
- |
-|
-
-memGen2
-
- |
-
-32
-
- |
-
-99.92
-
- |
-|
-
-memGen2
-
- |
-
-64
-
- |
-
-99.96
-
- |
-|
-
-memGen2
-
- |
-
-128
-
- |
-
-99.98
-
- |
-|
-
-memGen3
-
- |
-
-16
-
- |
-
-0.1
-
- |
-|
-
-memGen3
-
- |
-
-32
-
- |
-
-0.1
-
- |
-|
-
-memGen3
-
- |
-
-64
-
- |
-
-0.1
-
- |
-|
-
-memGen3
-
- |
-
-128
-
- |
-
-0.1
-
- |
-|
-
-memGen4
-
- |
-
-16
-
- |
-
-99.97
-
- |
-|
-
-memGen4
-
- |
-
-32
-
- |
-
-99.99
-
- |
-|
-
-memGen4
-
- |
-
-64
-
- |
-
-99.99
-
- |
-|
-
-memGen4
-
- |
-
-128
-
- |
-
-100
-
- |
-|
-
-memGen5
-
- |
-
-16
-
- |
-
-99.59
-
- |
-|
-
-memGen5
-
- |
-
-32
-
- |
-
-99.8
-
- |
-|
-
-memGen5
-
- |
-
-64
-
- |
-
-99.9
-
- |
-|
-
-memGen5
-
- |
-
-128
-
- |
-
-99.95
-
- |
-|
-
-memGen6
-
- |
-
-16
-
- |
-
-0
-
- |
-|
-
-memGen6
-
- |
-
-32
-
- |
-
-0
-
- |
-|
-
-memGen6
-
- |
-
-64
-
- |
-
-50
-
- |
-|
-
-memGen6
-
- |
-
-128
-
- |
-
-75
-
- |
 
 ### Experiment 2: Hit Ratio vs Associativity (Line Size = 64)
 
@@ -584,331 +292,34 @@ MemGen6:![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfYh9uz-mPdiZn5qdn8t
 
 * * * * *
 
-|
 
-Generator
+| Generator | Line Size (bytes) | Hit Ratio (%) |
+|-----------|-------------------|---------------|
+| memGen1   | 16                | 98.44         |
+| memGen1   | 32                | 98.44         |
+| memGen1   | 64                | 98.44         |
+| memGen1   | 128               | 98.44         |
+| memGen2   | 16                | 99.96         |
+| memGen2   | 32                | 99.96         |
+| memGen2   | 64                | 99.96         |
+| memGen2   | 128               | 99.96         |
+| memGen3   | 16                | 0.1           |
+| memGen3   | 32                | 0.1           |
+| memGen3   | 64                | 0.1           |
+| memGen3   | 128               | 0.1           |
+| memGen4   | 16                | 99.99         |
+| memGen4   | 32                | 99.99         |
+| memGen4   | 64                | 99.99         |
+| memGen4   | 128               | 99.99         |
+| memGen5   | 16                | 99.9          |
+| memGen5   | 32                | 99.9          |
+| memGen5   | 64                | 99.9          |
+| memGen5   | 128               | 99.9          |
+| memGen6   | 16                | 50            |
+| memGen6   | 32                | 50            |
+| memGen6   | 64                | 50            |
+| memGen6   | 128               | 50            |
 
- |
-
-Line Size (bytes)
-
- |
-
-Hit Ratio (%)
-
- |
-|
-
-memGen1
-
- |
-
-16
-
- |
-
-98.44
-
- |
-|
-
-memGen1
-
- |
-
-32
-
- |
-
-98.44
-
- |
-|
-
-memGen1
-
- |
-
-64
-
- |
-
-98.44
-
- |
-|
-
-memGen1
-
- |
-
-128
-
- |
-
-98.44
-
- |
-|
-
-memGen2
-
- |
-
-16
-
- |
-
-99.96
-
- |
-|
-
-memGen2
-
- |
-
-32
-
- |
-
-99.96
-
- |
-|
-
-memGen2
-
- |
-
-64
-
- |
-
-99.96
-
- |
-|
-
-memGen2
-
- |
-
-128
-
- |
-
-99.96
-
- |
-|
-
-memGen3
-
- |
-
-16
-
- |
-
-0.1
-
- |
-|
-
-memGen3
-
- |
-
-32
-
- |
-
-0.1
-
- |
-|
-
-memGen3
-
- |
-
-64
-
- |
-
-0.1
-
- |
-|
-
-memGen3
-
- |
-
-128
-
- |
-
-0.1
-
- |
-|
-
-memGen4
-
- |
-
-16
-
- |
-
-99.99
-
- |
-|
-
-memGen4
-
- |
-
-32
-
- |
-
-99.99
-
- |
-|
-
-memGen4
-
- |
-
-64
-
- |
-
-99.99
-
- |
-|
-
-memGen4
-
- |
-
-128
-
- |
-
-99.99
-
- |
-|
-
-memGen5
-
- |
-
-16
-
- |
-
-99.9
-
- |
-|
-
-memGen5
-
- |
-
-32
-
- |
-
-99.9
-
- |
-|
-
-memGen5
-
- |
-
-64
-
- |
-
-99.9
-
- |
-|
-
-memGen5
-
- |
-
-128
-
- |
-
-99.9
-
- |
-|
-
-memGen6
-
- |
-
-16
-
- |
-
-50
-
- |
-|
-
-memGen6
-
- |
-
-32
-
- |
-
-50
-
- |
-|
-
-memGen6
-
- |
-
-64
-
- |
-
-50
-
- |
-|
-
-memGen6
-
- |
-
-128
-
- |
-
-50
-
- |
 
 5\. Analysis & Discussion
 
